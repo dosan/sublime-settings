@@ -1,4 +1,19 @@
 [
+	{ "keys": ["ctrl+r"], "command": "prompt_open_file" },
+	{ "keys": ["ctrl+o"], "command": "save" },
+	{ "keys": ["ctrl+,"], "command": "close" },
+	{ "keys": ["ctrl+;"], "command": "undo" },
+	{ "keys": ["ctrl+shift+;"], "command": "redo" },
+	{ "keys": ["ctrl+q"], "command": "cut" },
+	{ "keys": ["ctrl+j"], "command": "copy" },
+	
+	{ "keys": ["ctrl+k"], "command": "paste" },
+	{ "keys": ["ctrl+e"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+u"], "command": "show_panel", "args": {"panel": "find"} },
+	{ "keys": ["ctrl+shift+."], "command": "slurp_replace_string" },
+	{ "keys": ["ctrl+shift+u"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	{ "keys": ["ctrl+shift+e"], "command": "duplicate_line" },
+
 	{ "keys": ["e", "u"], "command": "exit_insert_mode",
 		"context":
 		[
